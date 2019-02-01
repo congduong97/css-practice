@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+.facebook, .instagram, .twitter, .youtube
+{ display: inline-block; background: url('download.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.facebook { background-position: -0px -0px; width: 32px; height: 32px; }
+.instagram { background-position: -32px -0px; width: 32px; height: 32px; }
+.twitter { background-position: -0px -32px; width: 32px; height: 32px; }
+.youtube { background-position: -32px -32px; width: 32px; height: 32px; }
