@@ -14,6 +14,23 @@ body{
     margin: 0 auto;
 }
 
+.facebook, .instagram, .twitter, .youtube
+{ display: inline-block;  ;background: url('download.png') no-repeat;  overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.facebook {width: 25.6px;
+    height: 25.6px;
+    background-size: 197% 193%;
+    background-position: -0px -0px;}
+
+.instagram { background-position: -32px -0px; width: 32px; height: 32px; }
+.twitter {width: 25.6px;
+    height: 25.6px;
+    background-size: 197% 101%;
+    background-position: -0px -12.8px;
+}
+.youtube { background-position: -32px -32px; width: 32px; height: 32px; }
+
+
 /* menu style */
 
 nav{
@@ -49,4 +66,5 @@ nav a:hover{
     nav li{
         flex: 1 1 0;
     }
+
 }
