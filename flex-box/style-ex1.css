@@ -14,6 +14,16 @@ body{
     margin: 0 auto;
 }
 
+.facebook, .instagram, .twitter, .youtube
+{ display: inline-block;  ;background: url('download.png') no-repeat;  overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.facebook { background-position: -0px -0px; width: 32px; height: 32px;  }
+
+.instagram { background-position: -32px -0px; width: 32px; height: 32px; }
+.twitter { background-position: -0px -32px; width: 32px; height: 32px; }
+.youtube { background-position: -32px -32px; width: 32px; height: 32px; }
+
+
 /* menu style */
 
 nav{
@@ -49,4 +59,5 @@ nav a:hover{
     nav li{
         flex: 1 1 0;
     }
+
 }
