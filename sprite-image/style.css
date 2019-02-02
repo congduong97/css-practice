@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
 }
+ 
+.icon{
+    background: url('download.png') no-repeat;
+    width: 64px; 
+    height: 64px; 
+    background-size: 80%;
+}
 
  
-.facebook, .instagram, .twitter, .youtube
-{ display: inline-block; background: url('download.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
- 
-.facebook { background-position: -0px -0px; width: 32px; height: 32px; }
-.instagram { background-position: -32px -0px; width: 32px; height: 32px; }
+.facebook { background-position: 0 0; }
+.instagram { background-position: 50% -0;  }
 .twitter { background-position: -0px -32px; width: 32px; height: 32px; }
 .youtube { background-position: -32px -32px; width: 32px; height: 32px; }
